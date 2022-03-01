@@ -1,0 +1,24 @@
+.diolstructures > img {
+  width: 100%;
+  height: auto;
+}
+
+.proboscia > img {
+  width: 100%;
+  height: auto;
+}
+
+.vischeria > img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+
+.org-biochem > source {
+  width: 100%;
+  height: auto;
+}
+
+lijkt niet te werken in CSS
+*/

@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  .main {
+    height: 100hv;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main {
+    height: 100hv;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /*
+is er, voor de pagina's 'LDI', 'Upwelling', en 'C32 1,15-diol' een eenvoudige
+methode om section4 direct onder section3 te zetten, in plaats van dat het
+op een nieuwe regel komt>
+*/
+}

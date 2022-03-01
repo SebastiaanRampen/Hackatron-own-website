@@ -1,0 +1,104 @@
+html {
+  background-color: aqua;
+  color: black;
+  padding: 0px 20px;
+}
+
+/*
+  Header is website title and top figure
+*/
+.header {
+  background-color: deepskyblue;
+  color: red;
+  display: center;
+}
+
+.header-figure {
+  background-color: white;
+  border: 2px solid black;
+  width: 100% - 4px;
+}
+
+.header-figure > img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+  menu is purple bar to select page (Intro LDI ...
+*/
+.menu {
+  background-color: blueviolet;
+  display: flex;
+}
+
+.menu-header {
+  color: yellowgreen; /* color of selected page-indicator. 
+  only 'works' when no url link is attached to the open page title */
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+/*
+  'non-selected' page settings
+*/
+.menu-header a {
+  text-decoration: none; /* turns off coloring and underlining of url link */
+  color: ivory;
+}
+
+/*
+  adds some space around menu-items
+*/
+.menu-header > li {
+  padding: 0 10px 0 10px;
+}
+
+/*
+  when mouse overs over menu-item
+*/
+li:hover {
+  background-color: darkorange;
+}
+
+/*
+  main body of website
+*/
+.main {
+  text-align: justify; /* justify text in boxes */
+}
+
+/*
+  title of main body - topic-title
+*/
+h1 {
+  text-align: center;
+}
+
+/*
+  standard figure-box setup
+*/
+.mainfigures {
+  background-color: lightgrey;
+  display: grid; /* enables multiple figures in one box */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  border: 2px solid black;
+  width: 100% -4px;
+  text-align: left;
+}
+
+.main section {
+  padding: 15px;
+}
+
+/*
+  references is reference box at the bottom of the page
+*/
+.references {
+  background-color: gray;
+  font-size: small;
+}
+.references > p {
+  margin: 5px; /* margins around individual references */
+}

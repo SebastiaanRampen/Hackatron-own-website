@@ -1,0 +1,13 @@
+label {
+  color: darkblue;
+  width: 200px;
+  display: inline-block;
+}
+
+.buttons label {
+  width: auto;
+}
+
+button {
+  margin: 50px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css files\general settings.css" />
+    <link rel="stylesheet" href="css files\contact settings.css" />
+    <title>Hackathron Website LDI</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div>
+        <h1>Long Chain Diols</h1>
+      </div>
+
+      <div class="header-figure">
+        <img
+          id="example-diol"
+          src="C30 1 15 diol.jpg"
+          alt="C30 1,15-diol figure"
+        />
+      </div>
+    </div>
+
+    <div class="menu">
+      <ul class="menu-header">
+        <li id="intro"><a href="index.html">INTRO</a></li>
+        <li id="ldi"><a href="ldi.html">LDI</a></li>
+        <li id="upwelling"><a href="upwelling.html">UPWELLING</a></li>
+        <li id="c32">
+          <a href="C32.html">C<sub>32</sub> 1,15-DIOL</a>
+        </li>
+        <li id="contact">CONTACT</li>
+      </ul>
+    </div>
+
+    <div class="contact-form">
+      <h2>Contact Form</h2>
+      <form name="Submission" method="POST" data-netlify="true">
+        <p><label>Your Name: </label> <input type="text" name="name" /></p>
+        <p><label>Your Email: </label> <input type="email" name="email" /></p>
+        <p><label>Your Website: </label> <input type="url" /></p>
+
+        <p>
+          <label>Your Comment: </label>
+          <textarea name="Comment"></textarea>
+        </p>
+        <p>
+          <label>Upload Attachment: </label>
+          <input type="file" name="Recipe" />
+        </p>
+        <p>
+          <button type="reset">Reset</button>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
